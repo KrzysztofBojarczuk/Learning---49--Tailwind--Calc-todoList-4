@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi';
 
-const Calc = () => {
+const CalculatorApp = () => {
   const [number, setNumber] = useState("");
 
   const handleClick = (e) => {
@@ -80,4 +80,4 @@ const Calc = () => {
     )
 }
 
-export default Calc
+export default CalculatorApp
